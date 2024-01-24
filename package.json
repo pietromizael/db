@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon req.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
