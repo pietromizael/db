@@ -23,7 +23,8 @@ const db = new sqlite3.Database("./database.db", (err) => {
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:5174/contact",
+    methods: ["GET", "POST"],
   })
 );
 
